@@ -1,0 +1,58 @@
+
+html {
+    height: 100%;
+}
+body {
+    background-image:  linear-gradient(orange, yellow);
+    color: rgb(70, 0, 70);
+    font-size: 20px;
+}
+
+button, a, input[type="submit"] {
+    background-color: rgb(215, 111, 69);
+    border-color: brown;
+    cursor: pointer;
+}
+a.button{
+    text-decoration: none;
+    border-width: 2px;
+    color: black;
+    font-size: 13.3px;
+    padding: 2px;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-style: outset;
+    font-family: Arial;
+}
+
+.header {
+    display: flex;
+}
+
+.header>:nth-child(1) {
+    flex:1;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .errorMessage {
+    background-color: red;
+    border: 2px solid darkred;
+    font-style: italic;
+    padding: 5px;
+    margin: 5px;
+  }
